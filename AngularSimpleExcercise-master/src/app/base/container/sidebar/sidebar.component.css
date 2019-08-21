@@ -1,0 +1,22 @@
+.sidebar{
+}
+
+li{
+    font-family: cursive;
+    font-weight: 500;
+    cursor: pointer;
+    color: black;
+    padding: 10px;
+
+
+}
+li:not(:last-child){
+    border-bottom: 1px solid gray;
+}
+.active {
+    /* background-color: #d6cfcf; */
+    color : #ffffff;
+    text-decoration: underline;
+    font-weight: bold;
+    background-color: #afafaf;
+  }

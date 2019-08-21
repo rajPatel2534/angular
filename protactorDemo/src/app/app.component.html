@@ -1,0 +1,13 @@
+<div >
+<input type="number" [(ngModel)]="num1" id="num1" placeholder="Enter num1">
+<select [(ngModel)]="option" [value]="1">
+  <option value="1">+</option>
+  <option value="2">*</option>
+  <option value="3">-</option>
+  <option value="4">/</option>
+  </select>
+
+<input type="number" [(ngModel)]="num2" id="num2"  placeholder="Enter num2">
+<button type="text" (click)="Perform()">Perform</button>
+Result is <p>{{ result }}</p>
+</div>

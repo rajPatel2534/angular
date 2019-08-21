@@ -1,0 +1,31 @@
+.main-container{
+    display: flex;
+    height: calc(100vh - 100px);
+    /* margin-top: 12px; */
+}
+.sidebar{
+    width:200px;
+    transition: 0.4s all;
+    background-color: #dedede;
+
+}
+.main-content{
+    padding: 30px;
+    width: 100%;
+    background-color: #3484c112;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sidebarOpened{
+    margin-left: 0px;
+}
+.sidebarClosed{
+    margin-left: -200px;
+}
+
+app-footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
